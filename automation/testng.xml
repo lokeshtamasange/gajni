@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="DemoTestNG.day1"/>
+      <class name="com.demo.DemoTestNG"/>
+      <class name="com.demo.CostumerModule"/>
+      <class name="com.demo.DemoScreenShot"/>
+      <class name="com.actitime.testscript.TaskModule"/>
+      <class name="com.demo.DemoAssertFail1"/>
+      <class name=".Day2"/>
+      <class name="com.demo.BaseClass"/>
+      <class name=".Day3"/>
+      <class name="com.actitime.testscript.CustemerModule"/>
+      <class name="com.demo.CostumerModule1"/>
+      <class name="com.actitime.testscript.ProjectModule"/>
+      <class name="com.actitime.testscript.DemoScreenShot"/>
+      <class name=".Day1"/>
+      <class name="com.demo.CostumerModule2"/>
+      <class name="com.demo.DemoAssertion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
